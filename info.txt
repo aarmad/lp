@@ -1,0 +1,12 @@
+Exemples de balises :
+nav,section,main,header,footer
+
+Structure :
+_ Image en banière
+_ Petit texte
+_ Brand social proof
+_ Product_regular
+_ Multicolonne
+_ Reviews
+_ FAQ
+_ Footer

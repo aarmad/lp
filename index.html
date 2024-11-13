@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampy</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Lexend', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #ebda92;
+            padding: 25px;
+            text-align: center;
+        }
+        nav {
+            background-color: #776e04;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 10px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin: 20px ;
+            padding: 20px;
+            background-color: #fdfcfc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #5d5252;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            bottom: 0;
+        }
+        .cta-button {
+            background-color: #ff9900;
+            color: #fff;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .cta-button:hover{
+            background-color: darkviolet;
+            transition: background-color 1.5s;
+        }
+        #reviews {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #reviews h2 {
+          text-align: center;
+          font-size: 2em;
+          margin-bottom: 20px;
+          color: #333;
+        }
+
+        .review {
+          background-color: #fff;
+          padding: 20px;
+          margin-bottom: 20px;
+          border-radius: 8px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          border-left: 5px solid #007bff;
+        }
+
+        .review header h3 {
+             font-size: 1.5em;
+             color: #007bff;
+        }
+
+        .review .review-date {
+             font-size: 0.9em;
+              color: #666;
+              margin-bottom: 10px;
+        }
+
+        .review-content {
+          font-size: 1.1em;
+          color: #333;
+          margin-bottom: 15px;
+        }
+
+        .rating {
+         font-size: 1.2em;
+         font-weight: bold;
+          color: #f39c12;
+        }
+
+        .sav {
+            background-color: darkkhaki;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-content: space-between;
+            border-radius: 10px;
+        }
+        .sav-mail{
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        @media screen and (max-width: 600px) {
+            #reviews {
+                   padding: 15px;
+                }
+
+            .review {
+                   padding: 15px;
+                }
+
+            .review header h3 {
+                  font-size: 1.2em;
+                }
+
+            .review-content {
+                 font-size: 1em;
+                }
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="img/Logo_Lampy.png" alt="">
+</header>
+
+<nav>
+    <a href="#home">Accueil</a>
+    <a href="#features">Caractéristiques</a>
+    <a href="#reviews">Avis Clients</a>
+    <a href="#contact">Contact</a>
+</nav>
+<main>
+    <section id="home">
+        <center><h2>Illuminez votre intérieur avec style</h2></center>
+        <p>Découvrez notre nouvelle lampe qui transformera votre espace de vie en un havre de paix et de confort. Alliant design moderne et technologie de pointe, notre lampe est parfaite pour toutes les occasions.</p>
+        <center><img src="img/Lampy_4.jpeg" width=61% height=60% alt=""></center>
+        <ul></ul>
+    </section>
+
+    <section id="features">
+        <center><h2>Caractéristiques principales</h2></center>
+        <ul>
+            <li>Design élégant et minimaliste</li>
+            <li>Technologie LED économe en énergie</li>
+            <li>Contrôle de luminosité tactile</li>
+            <li>Disponible en plusieurs couleurs</li>
+        </ul>
+        <center><img src="img/Lampy_3.jpeg" width=61% height=60% alt=""></center>
+        <center><img src="img/Lampy_5.jpeg" width=61% height=60% alt=""></center>
+        <center><img src="img/Lampy_6.jpeg" width=61% height=60% alt=""></center>
+        <center><img src="img/Lampy_7.jpeg" width=61% height=60% alt=""></center>
+        <ul></ul>
+        <center><button class="cta-button">En savoir plus</button></center>
+    </section>
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        
+        <article class="review">
+            <header>
+                <h3>John Doe</h3>
+                <p class="review-date">September 26, 2024</p>
+            </header>
+            <p class="review-content">
+                Excellent service! Je suis vraiment heureux de mon achat. La qualité est au dessus de mes expérances et la livraison plus rapide que prévu
+            <footer>
+                <p class="rating">Rating: ⭐⭐⭐⭐⭐</p>
+            </footer>
+        </article>
+        
+        <article class="review">
+            <header>
+                <h3>Jane DuPont</h3>
+                <p class="review-date">September 15, 2024</p>
+            </header>
+            <p class="review-content">
+                Bon produit, mais le packaging est perfectible. Je suis quand même satisfait de mon expérience.
+            </p>
+            <footer>
+                <p class="rating">Rating: ⭐⭐⭐⭐</p>
+            </footer>
+        </article>
+    
+        <article class="review">
+            <header>
+                <h3>Yeat</h3>
+                <p class="review-date">August 29, 2024</p>
+            </header>
+            <p class="review-content">
+                Pas exactement ce que j'espérais. Le produit est bien mais le support client est quasi inexistant.
+            </p>
+            <footer>
+                <p class="rating">Rating: ⭐⭐⭐</p>
+            </footer>
+        </article>
+    </section>
+    
+    <section id="contact">
+        <center><h2>Contactez nous !</h2></center>
+        <p>N'hésitez pas à nous appeler au (+33)000000001</p>
+        <form class="sav">
+            <div>
+                <input class="sav-mail"type="email" id="email" placeholder="Votre email" required>
+            </div>
+            <ul></ul>
+            <div>
+                <input type="checkbox" id="Conditions" required>
+                <label for="Conditions">CGV</label>
+                <ul></ul>
+            </div>
+            <input type="submit">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© 2024 Lampe de Luxe. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
